@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Input Section -->
+      <header class="input-container">
+        <input type="text" class="city" placeholder="Search City" />
+        <button class="submit-btn">
+          <img src="pictures/wth search.png" />
+        </button>
+      </header>
+
+      <!-- Weather Info -->
+      <section class="info-weather" style="display: none">
+        <div class="location-date-container">
+          <div class="location">
+            <img src="pictures/86pin.svg" alt="PIN MARK" />
+            <div class="cityc">
+              <h2 class="inputcity">Delhi</h2>
+              <h4 class="country">India</h4>
+            </div>
+          </div>
+          <div class="dt-time">
+            <h5 class="current_date-txt regular-txt">Mon,7 March</h5>
+            <h5 class="GMT">GMT</h5>
+            <h5 class="localtime">--:--</h5>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="weather-summary">
+          <img src="pictures/rainy-day.png" alt="Cloud" class="weather-icon" />
+          <div class="weather-summary-info">
+            <h1><span class="temp-text">25</span> &#x2103;</h1>
+            <h3 class="condition-txt regular-txt">Light Shower</h3>
+          </div>
+        </div>
+
+        <!-- Humidity & Wind -->
+        <div class="weather-sumary-container">
+          <div class="condition-item">
+            <span class="material-symbols-outlined"> water_drop </span>
+            <div class="condition_info">
+              <h5 class="regular-txt">Humidity</h5>
+              <h5 class="humidity-value">75 %</h5>
+            </div>
+          </div>
+          <div class="condition-item">
+            <img src="pictures/wind.png" />
+            <div class="condition_info">
+              <h5 class="regular-txt">Wind</h5>
+              <h5 class="wind-value">2 m/s</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Forecast -->
+        <div class="forecast-item-container"></div>
+      </section>
+
+      <!-- Search City Message -->
+      <section class="search-city city-msg">
+        <img src="pictures/searchy.svg" alt="Search the city" id="gift" />
+        <div>
+          <h1>Search City</h1>
+          <h4 class="regular-txt">
+            Get the current weather, 5-day forecast, and personalized
+            recommendations for your chosen city.
+          </h4>
+        </div>
+      </section>
+
+      <!-- Not Found -->
+      <section class="not-found city-msg" style="display: none">
+        <img src="pictures/err404.svg" alt="Search the city" id="gift" />
+        <div>
+          <h1>City Not Found</h1>
+          <h4 class="regular-txt">Search Again.</h4>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
