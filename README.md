@@ -7,9 +7,15 @@
 
 Here is a preview of the SkyForecast app:
 
-![SkyForecast Preview](https://arpankhare-63.github.io/SkyForecast/)
+![SkyForecast Preview](preview.png)
 
->![SkyForecast Preview](assets/skyforecast preview.png)
+> This is a screenshot of the app.  
+
+---
+
+## 🔗 Live Demo
+
+Check out the live version here: [SkyForecast Live Demo](https://arpankhare-63.github.io/SkyForecast/)
 
 ## 🔹 Features
 
